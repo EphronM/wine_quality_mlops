@@ -49,10 +49,10 @@ stages:
         estimators.ElasticNet.params.alpha: 0.9
         estimators.ElasticNet.params.l1_ratio: 0.4
     outs:
-    - path: report/params.json
+    - path: reports/params.json
       md5: a4aab0167612f21a6085dd05cfafdbf6
       size: 44
-    - path: report/scores.json
+    - path: reports/scores.json
       md5: 167215d3529473539c4df70187fc65b9
       size: 107
     - path: saved_models/model.joblib
