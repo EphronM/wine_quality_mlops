@@ -51,34 +51,35 @@ WineQuality
                                 </blockquote>
                             </label>
                             <textarea class="form-control" name="fixed_acidity" rows="1"
-                                placeholder="fixed acidity expected range 4.6 to 15.9"></textarea><br>
+                                placeholder="fixed acidity ( 4 to 15 )"></textarea>
                             <textarea class="form-control" name="volatile_acidity" rows="1"
-                                placeholder="volatile acidity expected range 0.12 to 1.58"></textarea><br>
+                                placeholder="volatile acidity ( 0.1 to 1 )"></textarea>
                             <textarea class="form-control" name="citric_acid" rows="1"
-                                placeholder="citric acid expected range 0.0 to 1.0"></textarea><br>
+                                placeholder="citric acid ( 0.0 to 1.0 )"></textarea>
                             <textarea class="form-control" name="residual_sugar" rows="1"
-                                placeholder="residual sugar expected range 0.9 to 15.5"></textarea><br>
+                                placeholder="residual sugar ( 0.9 to 15.5 )"></textarea>
                             <textarea class="form-control" name="chlorides" rows="1" 
-                                placeholder="chlorides expected range 0.012 to 0.611"></textarea><br>
+                                placeholder="chlorides ( 0.012 to 0.611 )"></textarea>
                             <textarea class="form-control" name="free_sulfur_dioxide" rows="1"
-                                placeholder="free sulfur dioxide expected range 1.0 to 72.0"></textarea><br>
+                                placeholder="free sulfur dioxide ( 1.0 to 72.0 )"></textarea>
                             <textarea class="form-control" name="total_sulfur_dioxide" rows="1"
-                                placeholder="total sulfur dioxide expected range 6.0 to 289.0"></textarea><br>
+                                placeholder="total sulfur dioxide ( 6.0 to 289.0 )"></textarea>
                             <textarea class="form-control" name="density" rows="1" 
-                                placeholder="density expected range 0.99007 to 1.00369"></textarea><br>
+                                placeholder="density ( 0.99007 to 1.00369 )"></textarea>
                             <textarea class="form-control" name="pH" rows="1" 
-                                placeholder="pH expected range 2.74 to 4.01"></textarea><br>
+                                placeholder="pH expected ( 2.74 to 4.01 )"></textarea>
                             <textarea class="form-control" name="sulphates" rows="1" 
-                                placeholder="sulphates expected range 0.33 to 2.0"></textarea><br>
+                                placeholder="sulphates ( 0.33 to 2.0 )"></textarea>
                             <textarea class="form-control" name="alcohol" rows="1" 
-                                placeholder="alcohol expected range 8.4 to 14.9"></textarea><br>
+                                placeholder="alcohol ( 8.4 to 14.9 )"></textarea>
 
                         </div>
 
                         <!-- Select output language here. -->
                         <div class="form-group">
-                        </div>
-                        <button type="submit" class="btn btn-primary mb-2">Predict</button></br>
+                        
+                        <button type="submit" class="btn btn-primary mb-2">Predict</button>
+                        </div></br>
                         </br>
                     </form>
                     <!-- Translated text returned by the Translate API is rendered here. -->
@@ -95,6 +96,8 @@ WineQuality
                             </label>
                             <textarea readonly class="form-control" id="exTextarea" rows="5">{{ response }}</textarea>
                         </div>
+                        <br>
+                        
                     </form>
                 </div>
             </div>
